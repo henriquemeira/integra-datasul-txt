@@ -1,0 +1,98 @@
+Seq.,Descrição,Campo,Tipo,Decimais,Obrig.,Tam.,Início,Fim
+1,Código do Registro - 1,cod_reg,Caracter,          ,     SIM     ,1,1,1
+2,Destino da Mercadoria,dest_merc,Inteiro,          ,     SIM     ,2,2,3
+3,Campo Desativado,campo_desativado_1,Inteiro,          ,     NÃO     ,6,4,9
+4,Campo Desativado,campo_desativado_2,Caracter,          ,     SIM     ,3,10,12
+5,Data Emissão Nota Fiscal de Entrega Futura,dt_emiss_nf_entreg_fut,DDMMAAAA,          ,     NÃO     ,8,13,20
+6,Estado,estado,Caracter,          ,     SIM     ,4,21,24
+7,Natureza de Operação,nat_oper,Caracter,          ,     SIM     ,8,25,32
+8,Código do Emitente,cod_emitente,Inteiro,          ,     SIM     ,9,33,41
+9,Campo Desativado,campo_desativado_3,Caracter,          ,     NÃO     ,3,42,44
+10,Número da Nota Fiscal,num_nf,Caracter,          ,     SIM     ,16,45,60
+11,País,pais,Caracter,          ,     SIM     ,20,61,80
+12,Percentual Embalagem,pct_embalagem,Decimal,2,     NÃO     ,5,81,85
+13,Percentual Frete,pct_frete,Decimal,2,     NÃO     ,5,86,90
+14,Desconto-1,desconto_1,Decimal,3,     NÃO     ,5,91,95
+15,Desconto-2,desconto_2,Decimal,3,     NÃO     ,5,96,100
+16,Percentual de Seguro,pct_seguro,Decimal,2,     NÃO     ,5,101,105
+17,Peso Bruto,peso_bruto,Decimal,3,     SIM     ,12,106,117
+18,Peso Líquido,peso_liquido,Decimal,3,     SIM     ,12,118,129
+19,Série,serie,Caracter,          ,     SIM     ,5,130,134
+20,Valor da Embalagem,vl_embalagem,Decimal,2,     SIM     ,13,135,147
+21,Valor do Frete,vl_frete,Decimal,2,     NÃO     ,13,148,160
+22,Valor da Mercadoria,vl_mercadoria,Decimal,2,     SIM     ,13,161,173
+23,Valor do Seguro,vl_seguro,Decimal,2,     NÃO     ,13,174,186
+24,Número da Tabela de Preço (Campo alternativo),num_tab_preco_alt,Caracter,          ,     NÃO     ,8,187,194
+25,Campo Desativado,campo_desativado_4,Decimal,5,     NÃO     ,6,195,200
+26,Código Canal de Venda,cod_canal_venda,Inteiro,          ,     NÃO     ,3,201,203
+27,Bairro,bairro,Caracter,          ,     SIM     ,30,204,233
+28,CEP,cep,Caracter,          ,     SIM     ,12,234,245
+29,C.G.C.,cnpj_cpf,Caracter,          ,     NÃO     ,19,246,264
+30,Cidade,cidade,Caracter,          ,     NÃO     ,25,265,289
+31,Cidade CIF,cidade_cif,Caracter,          ,     NÃO     ,25,290,314
+32,Campo Desativado,campo_desativado_5,Inteiro,          ,     SIM     ,3,315,317
+33,Código do Endereço de Entrega,cod_end_entrega,Caracter,          ,     NÃO     ,12,318,329
+34,Data Base Duplicata,dt_base_duplicata,DDMMAAAA,          ,     NÃO     ,8,330,337
+35,Data de Emissão da Nota,dt_emissao,DDMMAAAA,          ,     SIM     ,8,338,345
+36,Endereço,endereco,Caracter,          ,     NÃO     ,40,346,385
+37,Inscrição Estadual,insc_estadual,Caracter,          ,     SIM     ,19,386,404
+38,Marca Volumes,marca_volumes,Caracter,          ,     NÃO     ,20,405,424
+39,Moeda,moeda,Inteiro,          ,     SIM     ,2,425,426
+40,Representante,cod_representante,Caracter,          ,     SIM     ,12,427,438
+41,Transportadora Redespacho,cod_transp_redespacho,Caracter,          ,     SIM     ,12,439,450
+42,Transportador,cod_transportador,Caracter,          ,     SIM     ,12,451,462
+43,Nivel Restituição ICMS p/ Zona Franca,nivel_restituicao_icms,Caracter,          ,     NÃO     ,1,463,463
+44,Número da Fatura,num_fatura,Caracter,          ,     SIM     ,16,464,479
+45,Número da Tabela de Preço,num_tab_preco,Caracter,          ,     SIM     ,6,480,485
+46,Número Volumes,num_volumes,Caracter,          ,     NÃO     ,10,486,495
+47,Percentual de Restituição,pct_restituicao,Decimal,2,     NÃO     ,5,496,500
+48,Placa,placa_veiculo,Caracter,          ,     NÃO     ,10,501,510
+49,Série Entrega Futura,serie_entrega_futura,Caracter,          ,     NÃO     ,5,511,515
+50,Número da Nota Entrega Futura,num_nf_entrega_futura,Caracter,          ,     NÃO     ,16,516,531
+51,Número Siscomex,num_siscomex,Inteiro,          ,     NÃO     ,11,532,542
+52,Libera Nota Fiscal sem Saldo,ind_libera_nf_sem_saldo,Sim/Não,          ,     SIM     ,3,543,545
+53,Rota,rota,Caracter,          ,     NÃO     ,12,546,557
+54,Campo Desativado,campo_desativado_6,Inteiro,          ,     NÃO     ,3,558,560
+55,Taxa Exportação,vl_taxa_exportacao,Decimal,8,     NÃO     ,17,561,577
+56,Número Processo Exportação,num_proc_exportacao,Caracter,          ,     NÃO     ,12,578,589
+57,Campo Desativado,campo_desativado_7,Caracter,          ,     NÃO     ,4,590,593
+58,Tabela Financiamento,tab_financiamento,Inteiro,          ,     NÃO     ,3,594,596
+59,Indice Financiamento,indice_financiamento,Inteiro,          ,     NÃO     ,2,597,598
+60,Código Portador,cod_portador,Inteiro,          ,     SIM     ,5,599,603
+61,Modalidade,modalidade,Inteiro,          ,     SIM     ,1,604,604
+62,Número Nota Base,num_nf_base,Caracter,          ,     NÃO     ,16,605,620
+63,Série Base,serie_base,Caracter,          ,     NÃO     ,5,621,625
+64,UF Placa,uf_placa,Caracter,          ,     NÃO     ,2,626,627
+65,Data de Saída da Mercadoria,dt_saida,DDMMAAAA,          ,     NÃO     ,8,628,635
+66,Série Diferença de Preço,serie_dif_preco,Caracter,          ,     NÃO     ,5,636,640
+67,Número Nota Diferença de Preço,num_nf_dif_preco,Caracter,          ,     NÃO     ,16,641,656
+68,Percentual Acréscimo Diferença de Preço,pct_acres_dif_preco,Decimal,2,     NÃO     ,5,657,661
+69,Valor Acréscimo Diferença de Preço,vl_acres_dif_preco,Decimal,2,     NÃO     ,13,662,674
+70,Valor Taxa Exportação Diferença de Preço,vl_taxa_exp_dif_preco,Decimal,8,     NÃO     ,15,675,689
+71,Condições Redespacho,cond_redespacho,Caracter,          ,     NÃO     ,2000,690,2689
+72,Observação,observacao,Caracter,          ,     NÃO     ,2000,2690,4689
+73,Data de Cancelamento da Nota Fiscal,dt_cancelamento,DDMMAAAA,          ,     NÃO     ,8,4690,4697
+74,Descrição do Motivo do Cancelamento,motivo_cancelamento,Caracter,          ,     NÃO     ,2000,4698,6697
+75,Código da Moeda de Faturamento,cod_moeda_fat,Inteiro,          ,     NÃO     ,2,6698,6699
+76,Valor Percentual Desconto Tabela Preço,pct_desc_tab_preco,Decimal,2,     NÃO     ,5,6700,6704
+77,Percentuais Desconto Informados por NF,pct_desc_informado,Caracter,          ,     NÃO     ,50,6705,6754
+78,Percentual Desconto Total Nota Fiscal,pct_desc_total_nf,Decimal,4,     NÃO     ,7,6755,6761
+79,Valor Desconto Total,vl_desconto_total,Decimal,2,     NÃO     ,11,6762,6772
+80,Percentual Desconto por Valor do Pedido,pct_desc_valor_pedido,Decimal,4,     NÃO     ,7,6773,6779
+81,Endereço Completo,endereco_completo,Caracter,          ,     NÃO     ,2000,6780,8779
+82,Código da Chave de Acesso NF-e,chave_nfe,Caracter,          ,     NÃO     ,60,8780,8839
+83,Situação da NF-e,situacao_nfe,Inteiro,          ,     NÃO     ,2,8840,8841
+84,Tipo de Emissão NF-e,tipo_emissao_nfe,Inteiro,          ,     NÃO     ,1,8842,8842
+85,Estabelecimento,estabelecimento,Caracter,          ,     SIM     ,5,8843,8847
+86,Protocolo,protocolo_nfe,Caracter,          ,     NÃO     ,15,8848,8862
+87,Modalidade de Frete,mod_frete,Caracter,          ,     NÃO     ,8,8863,8870
+88,Tipo CT-e,tipo_cte,Inteiro,          ,     NÃO     ,2,8871,8872
+89,Aliquota ICMS Simples Nacional,aliq_icms_sn,Decimal,2,     NÃO     ,10,8873,8882
+90,Código Condição de Pagamento,cod_cond_pagto,Inteiro,          ,     SIM     ,4,8883,8886
+91,Usuário de Cancelamento,usuario_cancelamento,Caracter,          ,     NÃO     ,12,8887,8898
+92,Informações Adicionais Fisco,info_adicional_fisco,Caracter,          ,     NÃO     ,2000,8899,10898
+93,Código IBGE Município Origem,cod_ibge_origem,Inteiro,          ,     NÃO     ,10,10899,10908
+94,Código IBGE Município Destino,cod_ibge_destino,Inteiro,          ,     NÃO     ,10,10909,10918
+95,Código da Mensagem,cod_mensagem,Inteiro,          ,     NÃO     ,5,10919,10923
+96,Finalidade de emissão da NF-e,finalidade_nfe,Inteiro,          ,     NÃO     ,1,10924,10924
+97,Tipo de Nota Débito/Crédito,tipo_nota_deb_cred,Inteiro,          ,     NÃO     ,2,10925,10926

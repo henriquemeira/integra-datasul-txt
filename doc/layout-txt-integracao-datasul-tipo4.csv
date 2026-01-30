@@ -1,0 +1,12 @@
+Seq.,Descrição,Campo,Tipo,Decimais,Obrigatório,Tamanho,Início,Término
+1,Código do Registro - 4,cod_reg,Caracter,          ,     SIM     ,1,1,1
+2,Código do Vencimento,cod_vencimento,Inteiro,          ,     SIM     ,2,2,3
+3,Data de Vencimento,dt_vencimento,DDMMAAAA,          ,     SIM     ,8,4,11
+4,Data Desconto,dt_desconto_duplicata,DDMMAAAA,          ,     NÃO     ,8,12,19
+5,Valor do Desconto,vl_desconto_duplicata,Decimal,2,     NÃO     ,13,20,32
+6,Parcela,num_parcela,Inteiro,          ,     SIM     ,2,33,34
+7,Valor da Parcela,vl_parcela,Decimal,2,     SIM     ,13,35,47
+8,Valor da Comissão,vl_comissao,Decimal,2,     NÃO     ,13,48,60
+9,Valor Acumulado Duplicatas,vl_acumulado_duplicatas,Decimal,2,     SIM     ,13,61,73
+10,Espécie,especie_duplicata,Caracter,          ,     SIM     ,2,74,75
+11,Número do Boleto,num_boleto,Caracter,          ,     NÃO     ,20,76,95

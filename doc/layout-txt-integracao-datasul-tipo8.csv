@@ -1,0 +1,11 @@
+Seq.,Descrição,Campo,Tipo,Decimais,Obrigatório,Tamanho,Início,Término
+1,Código do Registro - 8,cod_reg,Caracter,          ,     SIM     ,1,1,1
+2,Item,cod_item,Caracter,          ,     SIM     ,16,2,17
+3,Depósito,cod_deposito,Caracter,          ,     SIM     ,3,18,20
+4,Campo Desativado,campo_desativado_8_1,Caracter,          ,     NÃO     ,10,21,30
+5,Campo Desativado,campo_desativado_8_2,Caracter,          ,     NÃO     ,10,31,40
+6,Data de Validade do Lote,dt_validade_lote,DDMMAAAA,          ,     SIM     ,8,41,48
+7,Quantidade Faturada,qtd_faturada_lote,Decimal,4,     SIM     ,14,49,62
+8,Lote,num_lote,Caracter,          ,     SIM     ,40,63,102
+9,Código de Referência do Item,referencia_item_lote,Caracter,          ,     NÃO     ,8,103,110
+10,Localização,cod_localizacao,Caracter,          ,     NÃO     ,20,111,130

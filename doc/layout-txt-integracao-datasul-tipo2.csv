@@ -1,0 +1,185 @@
+Seq,Descrição,Campo,Tipo,Decimais,Obrigatório,Tamanho,Início,Término
+1,Código do Registro - 2,cod_reg,Caracter,          ,     SIM     ,1,1,1
+2,Baixa Estoque,ind_baixa_estoque,Sim/Não,          ,     SIM     ,3,2,4
+3,Classificação Fiscal,ncm,Caracter,          ,     SIM     ,12,5,16
+4,Campo Desativado,campo_desativado_item_1,Caracter,          ,     SIM     ,3,17,19
+5,Referência,referencia_item,Caracter,          ,     NÃO     ,8,20,27
+6,Data Nota Complementar,dt_nf_complementar,DDMMAAAA,          ,     NÃO     ,8,28,35
+7,Item,cod_item,Caracter,          ,     SIM     ,16,36,51
+8,Natureza Complementar,nat_complementar,Caracter,          ,     NÃO     ,8,52,59
+9,Natureza de Operação,nat_operacao,Caracter,          ,     SIM     ,8,60,67
+10,Número da Nota Fiscal,num_nf,Caracter,          ,     SIM     ,16,68,83
+11,Sequência,seq_item,Inteiro,          ,     SIM     ,5,84,88
+12,Número da Nota Complementar,num_nf_complementar,Caracter,          ,     NÃO     ,16,89,104
+13,Percentual de Desconto do Item,pct_desc_item,Decimal,5,     NÃO     ,8,105,112
+14,Peso Líquido,peso_liquido,Decimal,5,     SIM     ,11,113,123
+15,Peso Embalagem,peso_embalagem,Decimal,5,     NÃO     ,11,124,134
+16,Quantidade[1],qtd_faturada,Decimal,4,     SIM     ,11,135,145
+17,Quantidade[2],qtd_estoque,Decimal,4,     NÃO     ,11,146,156
+18,Sequência Complementar,seq_complementar,Inteiro,          ,     NÃO     ,3,157,159
+19,Série,serie,Caracter,          ,     SIM     ,5,160,164
+20,Série Complementar,serie_complementar,Caracter,          ,     NÃO     ,5,165,169
+21,Unidade Faturada[1],un_faturada,Caracter,          ,     SIM     ,2,170,171
+22,Unidade Faturada[2],un_estoque,Caracter,          ,     NÃO     ,2,172,173
+23,Valor Despesas,vl_despesas,Decimal,2,     NÃO     ,12,174,185
+24,Valor Embalagem,vl_embalagem,Decimal,2,     NÃO     ,12,186,197
+25,Valor Frete,vl_frete,Decimal,2,     NÃO     ,12,198,209
+26,Valor Mercadoria Líquido,vl_merc_liquido,Decimal,2,     SIM     ,12,210,221
+27,Valor Mercadoria Original,vl_merc_original,Decimal,2,     SIM     ,12,222,233
+28,Valor Mercadoria Tabela,vl_merc_tabela,Decimal,2,     SIM     ,12,234,245
+29,Preço Original,preco_unit_original,Decimal,5,     SIM     ,14,246,259
+30,Preço Tabela,preco_unit_tabela,Decimal,5,     SIM     ,14,260,273
+31,Preço Líquido,preco_unit_liquido,Decimal,5,     SIM     ,14,274,287
+32,Valor Seguro,vl_seguro,Decimal,2,     NÃO     ,12,288,299
+33,Valor Total do Item,vl_total_item,Decimal,2,     SIM     ,12,300,311
+34,Campo desativado,campo_desativado_item_2,Caracter,          ,     NÃO     ,17,312,328
+35,Retém IRRF,ind_ret_irrf,Sim/Não,          ,     NÃO     ,3,329,331
+36,Valor Mercadoria Líquido Moeda Forte,vl_merc_liq_moeda,Decimal,5,     NÃO     ,14,332,345
+37,Valor Mercadoria Original Moeda Forte,vl_merc_orig_moeda,Decimal,5,     NÃO     ,14,346,359
+38,Valor Mercadoria Tabela Moeda Forte,vl_merc_tab_moeda,Decimal,5,     NÃO     ,14,360,373
+39,Nível Restituição,nivel_restituicao,Caracter,          ,     NÃO     ,1,374,374
+40,Percentual de Restituição,pct_restituicao,Decimal,2,     NÃO     ,5,375,379
+41,Peso Bruto,peso_bruto,Decimal,5,     SIM     ,14,380,393
+42,Taxa de Exportação,vl_taxa_exportacao,Decimal,8,     NÃO     ,15,394,408
+43,Valor do Desconto,vl_desconto,Decimal,2,     NÃO     ,7,409,415
+44,Percentual de Desconto,pct_desconto,Decimal,5,     NÃO     ,7,416,422
+45,Alíquota ICMS,aliq_icms,Decimal,2,     NÃO     ,5,423,427
+46,Alíquota ICMS Complementar,aliq_icms_compl,Decimal,2,     NÃO     ,5,428,432
+47,Alíquota IPI,aliq_ipi,Decimal,2,     NÃO     ,5,433,437
+48,Alíquota ISS,aliq_iss,Decimal,2,     NÃO     ,5,438,442
+49,Código Tributação do ICMS,cst_icms,Inteiro,          ,     SIM     ,2,443,444
+50,Código Tributação do IPI,cst_ipi,Inteiro,          ,     SIM     ,2,445,446
+51,Código Tributação do ISS,cst_iss,Inteiro,          ,     SIM     ,2,447,448
+52,Código do Serviço,cod_servico,Inteiro,          ,     NÃO     ,5,449,453
+53,Retém ICMS na Fonte,ind_ret_icms_fonte,Sim/Não,          ,     SIM     ,3,454,456
+54,Percentual de Desconto de ICMS,pct_desc_icms,Decimal,3,     NÃO     ,6,457,462
+55,Percentual de Redução de ICMS,pct_red_icms,Decimal,4,     NÃO     ,7,463,469
+56,Percentual de Redução de IPI,pct_red_ipi,Decimal,2,     NÃO     ,5,470,474
+57,Percentual de Redução de ISS,pct_red_iss,Decimal,2,     NÃO     ,5,475,479
+58,Base de Cálculo do ICMS Entrega Futura,bc_icms_ent_futura,Decimal,2,     NÃO     ,12,480,491
+59,Base de Cálculo do ICMS,bc_icms,Decimal,2,     SIM     ,12,492,503
+60,Base de Cálculo do IPI Entrega Futura,bc_ipi_ent_futura,Decimal,2,     NÃO     ,12,504,515
+61,Base de Cálculo do IPI,bc_ipi,Decimal,2,     SIM     ,12,516,527
+62,Base de Cálculo do ISS,bc_iss,Decimal,2,     SIM     ,12,528,539
+63,Base ICMS ST Entrega Futura,bc_icms_st_ent_futura,Decimal,2,     NÃO     ,12,540,551
+64,Base ICMS ST,bc_icms_st,Decimal,2,     NÃO     ,12,552,563
+65,ICMS Complementar,vl_icms_compl,Decimal,2,     NÃO     ,12,564,575
+66,Valor ICMS Entrega Futura,vl_icms_ent_futura,Decimal,2,     NÃO     ,12,576,587
+67,Valor ICMS,vl_icms,Decimal,2,     NÃO     ,12,588,599
+68,Valor ICMS Outras,vl_icms_outras,Decimal,2,     NÃO     ,12,600,611
+69,Valor ICMS Não Tributado,vl_icms_isento,Decimal,2,     NÃO     ,12,612,623
+70,Valor ICMS ST Entrega Futura,vl_icms_st_ent_futura,Decimal,2,     NÃO     ,12,624,635
+71,Valor ICMS ST,vl_icms_st,Decimal,2,     NÃO     ,12,636,647
+72,Valor IPI Entrega Futura,vl_ipi_ent_futura,Decimal,2,     NÃO     ,12,648,659
+73,Valor IPI,vl_ipi,Decimal,2,     NÃO     ,12,660,671
+74,Valor IPI Outras,vl_ipi_outras,Decimal,2,     NÃO     ,12,672,683
+75,Valor IPI Não Tributado,vl_ipi_isento,Decimal,2,     NÃO     ,12,684,695
+76,Valor IRRF,vl_irrf,Decimal,2,     NÃO     ,12,696,707
+77,Valor ISS,vl_iss,Decimal,2,     NÃO     ,12,708,719
+78,Valor ISS Não Tributado,vl_iss_isento,Decimal,2,     NÃO     ,12,720,731
+79,Valor ISS Outras,vl_iss_outras,Decimal,2,     NÃO     ,12,732,743
+80,Código Unidade de Negócio,cod_unid_negocio,Caracter,          ,     NÃO     ,3,744,746
+81,Campo Desativado,campo_desativado_item_3,Decimal,5,     NÃO     ,11,747,757
+82,Valor Desconto Zona Franca,vl_desc_zfm,Decimal,2,     NÃO     ,11,758,768
+83,Narrativa,narrativa_item,Caracter,          ,     NÃO     ,2000,769,2768
+84,Valor Percentual Desconto Tabela Preço,pct_desc_tab_preco,Decimal,2,     NÃO     ,5,2769,2773
+85,Percentuais Descontos Informados Item,pct_desc_informado,Caracter,          ,     NÃO     ,50,2774,2823
+86,Valor Desconto Informado,vl_desc_informado,Decimal,2,     NÃO     ,11,2824,2834
+87,Percentual Desconto Total Item,pct_desc_total_item,Decimal,4,     NÃO     ,7,2835,2841
+88,Valor Desconto Total,vl_desc_total,Decimal,2,     NÃO     ,11,2842,2852
+89,Percentual Desconto Período,pct_desc_periodo,Decimal,3,     NÃO     ,5,2853,2857
+90,Percentual Desconto Prazo,pct_desc_prazo,Decimal,3,     NÃO     ,5,2858,2862
+91,Descontos Parametrizados (1 a 5),desc_param_1,Decimal,5,     NÃO     ,14,2863,2876
+92,Descontos Parametrizados (1 a 5),desc_param_2,Decimal,5,     NÃO     ,14,2877,2890
+93,Descontos Parametrizados (1 a 5),desc_param_3,Decimal,5,     NÃO     ,14,2891,2904
+94,Descontos Parametrizados (1 a 5),desc_param_4,Decimal,5,     NÃO     ,14,2905,2918
+95,Descontos Parametrizados (1 a 5),desc_param_5,Decimal,5,     NÃO     ,14,2919,2932
+96,Valor Desconto PIS Zona Franca,vl_desc_pis_zfm,Decimal,2,     NÃO     ,16,2933,2948
+97,Valor Desconto COFINS Zona Franca,vl_desc_cofins_zfm,Decimal,2,     NÃO     ,16,2949,2964
+98,Estabelecimento,cod_estab,Caracter,          ,     SIM     ,5,2965,2969
+99,Conta de Custo Contábil,conta_contabil,Caracter,          ,     NÃO     ,20,2970,2989
+100,Centro de Custo,centro_custo,Caracter,          ,     NÃO     ,20,2990,3009
+101,Valor PIS ST,vl_pis_st,Decimal,2,     NÃO     ,14,3010,3023
+102,Valor Base PIS ST,bc_pis_st,Decimal,2,     NÃO     ,15,3024,3038
+103,Aliquota PIS ST,aliq_pis_st,Decimal,4,     NÃO     ,6,3039,3044
+104,Valor COFINS ST,vl_cofins_st,Decimal,2,     NÃO     ,14,3045,3058
+105,Valor Base COFINS ST,bc_cofins_st,Decimal,2,     NÃO     ,15,3059,3073
+106,Aliquota COFINS ST,aliq_cofins_st,Decimal,4,     NÃO     ,6,3074,3079
+107,Código CSOSN,csosn,Caracter,          ,     NÃO     ,10,3080,3089
+108,Valor Base ICMS Simples Nacional,bc_icms_sn,Decimal,4,     NÃO     ,13,3090,3102
+109,Valor de Crédito Simples Nacional,vl_cred_sn,Decimal,4,     NÃO     ,13,3103,3115
+110,Número FCI,num_fci,Caracter,          ,     NÃO     ,36,3116,3151
+111,Código de Serviço de INSS,cod_serv_inss,Inteiro,          ,     NÃO     ,2,3152,3153
+112,Campo Desativado,campo_desativado_item_4,Decimal,2,     NÃO     ,16,3154,3169
+113,Base de Calculo do ISS Retido,bc_iss_retido,Decimal,2,     NÃO     ,14,3170,3183
+114,Aliquota do ISS Retido,aliq_iss_retido,Decimal,2,     NÃO     ,14,3184,3197
+115,Valor do ISS Retido,vl_iss_retido,Decimal,2,     NÃO     ,14,3198,3211
+116,Código Situação Tributária IPI,cst_ipi,Inteiro,          ,     NÃO     ,2,3212,3213
+117,Código Situação Tributária PIS,cst_pis,Inteiro,          ,     NÃO     ,2,3214,3215
+118,Código Situação Tributária COFINS,cst_cofins,Inteiro,          ,     NÃO     ,2,3216,3217
+119,Valor BC ICMS UF Destino,v_bc_uf_dest,Decimal,2,     NÃO     ,15,3218,3232
+120,Valor BC FCP UF Destino,v_bc_fcp_uf_dest,Decimal,2,     NÃO     ,15,3233,3247
+121,Percent ICMS FCP UF Destino,p_fcp_uf_dest,Decimal,4,     NÃO     ,7,3248,3254
+122,Aliquota interna UF Destino,p_icms_uf_dest,Decimal,4,     NÃO     ,7,3255,3261
+123,Aliquota interestadual envolvidas,p_icms_inter,Decimal,4,     NÃO     ,7,3262,3268
+124,Percent partilha ICMS Interestadual,p_icms_inter_part,Decimal,4,     NÃO     ,7,3269,3275
+125,Valor ICMS FCP UF Destino,v_fcp_uf_dest,Decimal,2,     NÃO     ,15,3276,3290
+126,Valor ICMS Interestadual UF Dest,v_icms_uf_dest,Decimal,2,     NÃO     ,15,3291,3305
+127,Valor ICMS Interestadual UF Remet,v_icms_uf_remet,Decimal,2,     NÃO     ,15,3306,3320
+128,Unidade de Medida Tributável,un_tributavel,Caracter,          ,     NÃO     ,2,3321,3322
+129,Quantidade Unidade Tributável,qtd_tributavel,Decimal,4,     NÃO     ,20,3323,3342
+130,Valor Unitário Unidade Tributável,vl_unit_tributavel,Decimal,5,     NÃO     ,20,3343,3362
+131,Valor BC FCP,v_bc_fcp,Decimal,2,     NÃO     ,15,3363,3377
+132,Percentual FCP,p_fcp,Decimal,4,     NÃO     ,7,3378,3384
+133,Valor FCP,v_fcp,Decimal,2,     NÃO     ,15,3385,3399
+134,Percentual de Desconto ZFM,p_desc_zfm,Decimal,2,     NÃO     ,5,3400,3404
+135,Percentual de Redução PIS,p_red_pis,Decimal,2,     NÃO     ,4,3405,3408
+136,Forma de Cálculo PIS,tp_calc_pis,Inteiro,          ,     NÃO     ,1,3409,3409
+137,Valor Unitário PIS,vl_unit_pis,Decimal,5,     NÃO     ,9,3410,3418
+138,Valor PIS,vl_pis,Decimal,2,     NÃO     ,12,3419,3430
+139,Valor Base PIS,bc_pis,Decimal,2,     NÃO     ,12,3431,3442
+140,Aliquota PIS,aliq_pis,Decimal,4,     NÃO     ,7,3443,3449
+141,Percentual de Redução COFINS,p_red_cofins,Decimal,2,     NÃO     ,4,3450,3453
+142,Forma de Cálculo COFINS,tp_calc_cofins,Inteiro,          ,     NÃO     ,1,3454,3454
+143,Valor Unitário COFINS,vl_unit_cofins,Decimal,5,     NÃO     ,9,3455,3463
+144,Valor COFINS,vl_cofins,Decimal,2,     NÃO     ,12,3464,3475
+145,Valor Base COFINS,bc_cofins,Decimal,2,     NÃO     ,12,3476,3487
+146,Aliquota COFINS,aliq_cofins,Decimal,4,     NÃO     ,7,3488,3494
+147,Valor BC FCP ICMS ST,v_bc_fcp_st,Decimal,2,     NÃO     ,15,3495,3509
+148,Percentual FCP ICMS ST,p_fcp_st,Decimal,4,     NÃO     ,7,3510,3516
+149,Valor FCP ICMS ST,v_fcp_st,Decimal,2,     NÃO     ,15,3517,3531
+150,Valor Exclusão ICMS BC PIS/COFINS,v_excl_icms_piscofins,Decimal,2,     NÃO     ,15,3532,3546
+151,Código Situação Tributária CBS/IBS,cst_cbs_ibs,Caracter,          ,     NÃO,3,3547,3549
+152,Classificação Tributária CBS/IBS,cl_trib_cbs_ibs,Caracter,          ,     NÃO     ,6,3550,3555
+153,Base de Cálculo CBS,bc_cbs,Decimal,2,     NÃO     ,15,3556,3570
+154,Alíquota CBS,aliq_cbs,Decimal,4,     NÃO     ,7,3571,3577
+155,Redução Alíquota CBS,p_red_aliq_cbs,Decimal,4,     NÃO     ,7,3578,3584
+156,Alíquota Efetiva CBS,aliq_efe_cbs,Decimal,4,     NÃO     ,7,3585,3591
+157,Percentual Diferimento CBS,p_dif_cbs,Decimal,4,     NÃO     ,7,3592,3598
+158,Valor Diferimento CBS,vl_dif_cbs,Decimal,2,     NÃO     ,15,3599,3613
+159,Valor CBS,vl_cbs,Decimal,2,     NÃO     ,15,3614,3628
+160,Base de Cálculo IBS UF,bc_ibs_uf,Decimal,2,     NÃO     ,15,3629,3643
+161,Alíquota IBS UF,aliq_ibs_uf,Decimal,4,     NÃO     ,7,3644,3650
+162,Redução Alíquota IBS UF,p_red_aliq_ibs_uf,Decimal,4,     NÃO     ,7,3651,3657
+163,Alíquota Efetiva IBS UF,aliq_efe_ibs_uf,Decimal,4,     NÃO     ,7,3658,3664
+164,Percentual Diferimento IBS UF,p_dif_ibs_uf,Decimal,4,     NÃO     ,7,3665,3671
+165,Valor Diferimento IBS UF,vl_dif_ibs_uf,Decimal,2,     NÃO     ,15,3672,3686
+166,Valor IBS UF,vl_ibs_uf,Decimal,2,     NÃO     ,15,3687,3701
+167,Base de Cálculo IBS Mun,bc_ibs_mun,Decimal,2,     NÃO     ,15,3702,3716
+168,Alíquota IBS Mun,aliq_ibs_mun,Decimal,4,     NÃO     ,7,3717,3723
+169,Redução Alíquota IBS Mun,p_red_aliq_ibs_mun,Decimal,4,     NÃO     ,7,3724,3730
+170,Alíquota Efetiva IBS Mun,aliq_efe_ibs_mun,Decimal,4,     NÃO     ,7,3731,3737
+171,Percentual Diferimento IBS Mun,p_dif_ibs_mun,Decimal,4,     NÃO     ,7,3738,3744
+172,Valor Diferimento IBS Mun,vl_dif_ibs_mun,Decimal,2,     NÃO     ,15,3745,3759
+173,Valor IBS Mun,vl_ibs_mun,Decimal,2,     NÃO     ,15,3760,3774
+174,Indicador Monofasia,ind_monofasia,Sim/Não,          ,     NÃO     ,3,3775,3777
+175,Seq Item XML,seq_item_xml,Inteiro,          ,     NÃO     ,5,3778,3782
+176,CST CBS/IBS Regular,cst_cbs_ibs_reg,Caracter,          ,     NÃO,3,3783,3785
+177,Classe Trib CBS/IBS Regular,cl_trib_cbs_ibs_reg,Caracter,          ,     NÃO     ,6,3786,3791
+178,Alíquota CBS Regular,aliq_cbs_reg,Decimal,4,     NÃO     ,7,3792,3798
+179,Valor CBS Regular,vl_cbs_reg,Decimal,2,     NÃO     ,15,3799,3813
+180,Alíquota IBS UF Regular,aliq_ibs_uf_reg,Decimal,4,     NÃO     ,7,3814,3820
+181,Valor IBS UF Regular,vl_ibs_uf_reg,Decimal,2,     NÃO     ,15,3821,3835
+182,Alíquota IBS Mun Regular,aliq_ibs_mun_reg,Decimal,4,     NÃO     ,7,3836,3842
+183,Valor IBS Mun Regular,vl_ibs_mun_reg,Decimal,2,     NÃO     ,15,3843,3857
+184,Doação,ind_doacao,Sim/Não,          ,     NÃO     ,3,3858,3860
