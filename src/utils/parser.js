@@ -70,10 +70,12 @@ function parseField(rawStr, descriptor) {
   if (/ddmmy/i.test(t) || /date/i.test(t)) {
     return parseDateField(rawStr)
   }
+  /*
   if (/sim/i.test(t) || /não/i.test(t) || /nao/i.test(t) || /sim\/não/i.test(t)) {
     const v = (rawStr || '').trim().toLowerCase()
     return v === 's' || v === 'sim' || v === '1' || v === 'yes'
   }
+    */
   if (/inteiro/i.test(t)) {
     const digits = (rawStr || '').replace(/[^0-9-]/g, '')
     return digits === '' ? null : parseInt(digits, 10)
