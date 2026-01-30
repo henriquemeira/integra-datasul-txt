@@ -42,7 +42,7 @@ export default function App() {
         setNotification({ text: 'Nenhum arquivo carregado', type: 'error' });
         setNotificationVisible(true);
         return;
-      //  throw new Error('Nenhum arquivo carregado')
+        //  throw new Error('Nenhum arquivo carregado')
       }
       const res = parseFile(rawText)
       setParsed(res)
@@ -181,16 +181,16 @@ export default function App() {
             )}
 
             {viewTab === 'json' && (
-                <div className="h-full overflow-auto p-2 flex flex-col">
-                  <div className="mb-2 flex items-center">
-                    <div className="flex-1" />
-                    <button onClick={handleCopyJSON} disabled={!parsed} className={`px-3 py-1 text-sm rounded ${parsed ? 'bg-gray-100' : 'bg-gray-200 text-gray-400'}`}>Copiar JSON</button>
-                  </div>
-
-                  <div className="flex-1 overflow-auto">
-                    {parsed ? <pre className="text-xs whitespace-pre-wrap">{JSON.stringify(parsed.result, null, 2)}</pre> : <div className="text-sm text-gray-500">—</div>}
-                  </div>
+              <div className="h-full overflow-auto p-2 flex flex-col">
+                <div className="mb-2 flex items-center">
+                  <div className="flex-1" />
+                  <button onClick={handleCopyJSON} disabled={!parsed} className={`px-3 py-1 text-sm rounded ${parsed ? 'bg-gray-100' : 'bg-gray-200 text-gray-400'}`}>Copiar JSON</button>
                 </div>
+
+                <div className="flex-1 overflow-auto">
+                  {parsed ? <pre className="text-xs whitespace-pre-wrap">{JSON.stringify(parsed.result, null, 2)}</pre> : <div className="text-sm text-gray-500">—</div>}
+                </div>
+              </div>
             )}
 
             {viewTab === 'table' && (
@@ -200,9 +200,12 @@ export default function App() {
             )}
           </div>
         </main>
-
         <footer className="mt-8 text-sm text-gray-500">
-          <p>Layout: consulte os arquivos em <code>doc/</code>. Feedback visual de sucesso/erro exibido acima.</p>
+          <p><strong>Aviso de Privacidade: </strong>
+            Este é um conversor client-side.
+            O processamento dos dados é feito inteiramente no seu navegador.
+            O arquivo carregado não é enviado para nenhum servidor, não é armazenado e não é coletado.
+            Ao fechar ou atualizar a página, todos os dados são apagados.</p>
         </footer>
         {/* Layout dialog component */}
         <LayoutDialog visible={showLayoutDialog} onClose={() => setShowLayoutDialog(false)} />      </div>
